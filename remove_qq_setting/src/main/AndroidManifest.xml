@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <application>
+        <!--解决Android16下GooglePlay一直报方向错误的问题，配合ShareSdk使用-->
+        <!--红色就红色吧，不影响编译运行。你指望ShareSdk或者QQ改么，不现实。-->
+        <activity android:name="com.tencent.connect.common.AssistActivity"
+            tools:ignore="MissingClass" />
+    </application>
+
+</manifest>
